@@ -4,7 +4,6 @@ import Brush from '../Model/brush.model.js';
 import CanvasView from './canvas.view.js';
 import { isThisTypeNode, textChangeRangeIsUnchanged } from 'typescript';
 import Point from '../Model/point.js';
-import { throws } from 'assert';
 
 class AstarView extends CanvasView {
     static readonly colorGreen: string = "#52F193";

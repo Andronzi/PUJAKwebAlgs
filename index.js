@@ -9,13 +9,19 @@ import { binStreamParser } from "./src/middlewares.js"
 import algorithms from "./src/algorithms.cjs"
 const __dirname = path.dirname(url.fileURLToPath(import.meta.url))
 
+if (!process.env.weightsName || !process.env.biasesName) {
+    throw ".env file must weightsName and biasesName";
+}
+
 algorithms.neuralNet.init(
     path.join(__dirname, "resources", process.env.weightsName),
     path.join(__dirname, "resources", process.env.biasesName)
 )
 
+log('log', process.env.weightsName, process.env.biasesName);
+
 if (!process.env["jwtSecret"]) {
-    throw ".env file must contain 'jwtSecret'"
+    throw ".env file must contain 'jwtSecret'";
 }
 
 const app = express()

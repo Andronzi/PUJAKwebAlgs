@@ -9,7 +9,7 @@ bin-release/
 node_modules/
 .vscode/
 .env
-build/
+# build/
 public/dist/
 resources/dev/
 

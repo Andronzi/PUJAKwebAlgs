@@ -1,0 +1,49 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ants", "ants.vcxproj", "{A8C25C36-FB59-846F-F5B1-B6D7C2AFD55F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "astar", "astar.vcxproj", "{BEB7F942-2FCD-EEEB-2CE7-9C949DAA1C57}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clasterisation", "clasterisation.vcxproj", "{C2BB80D5-E3DB-972D-0ED4-36F66B535532}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "genetic", "genetic.vcxproj", "{BB754066-AA7C-7DEE-278B-E860D50D6E72}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "labGen", "labGen.vcxproj", "{35172950-9574-B8E3-D676-83B225D2DC65}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "neuralNetwork", "neuralNetwork.vcxproj", "{D84CE865-F37D-E254-7F73-10AE0C579519}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{35172950-9574-B8E3-D676-83B225D2DC65}.Debug|x64.ActiveCfg = Debug|x64
+		{35172950-9574-B8E3-D676-83B225D2DC65}.Debug|x64.Build.0 = Debug|x64
+		{35172950-9574-B8E3-D676-83B225D2DC65}.Release|x64.ActiveCfg = Release|x64
+		{35172950-9574-B8E3-D676-83B225D2DC65}.Release|x64.Build.0 = Release|x64
+		{A8C25C36-FB59-846F-F5B1-B6D7C2AFD55F}.Debug|x64.ActiveCfg = Debug|x64
+		{A8C25C36-FB59-846F-F5B1-B6D7C2AFD55F}.Debug|x64.Build.0 = Debug|x64
+		{A8C25C36-FB59-846F-F5B1-B6D7C2AFD55F}.Release|x64.ActiveCfg = Release|x64
+		{A8C25C36-FB59-846F-F5B1-B6D7C2AFD55F}.Release|x64.Build.0 = Release|x64
+		{BB754066-AA7C-7DEE-278B-E860D50D6E72}.Debug|x64.ActiveCfg = Debug|x64
+		{BB754066-AA7C-7DEE-278B-E860D50D6E72}.Debug|x64.Build.0 = Debug|x64
+		{BB754066-AA7C-7DEE-278B-E860D50D6E72}.Release|x64.ActiveCfg = Release|x64
+		{BB754066-AA7C-7DEE-278B-E860D50D6E72}.Release|x64.Build.0 = Release|x64
+		{BEB7F942-2FCD-EEEB-2CE7-9C949DAA1C57}.Debug|x64.ActiveCfg = Debug|x64
+		{BEB7F942-2FCD-EEEB-2CE7-9C949DAA1C57}.Debug|x64.Build.0 = Debug|x64
+		{BEB7F942-2FCD-EEEB-2CE7-9C949DAA1C57}.Release|x64.ActiveCfg = Release|x64
+		{BEB7F942-2FCD-EEEB-2CE7-9C949DAA1C57}.Release|x64.Build.0 = Release|x64
+		{C2BB80D5-E3DB-972D-0ED4-36F66B535532}.Debug|x64.ActiveCfg = Debug|x64
+		{C2BB80D5-E3DB-972D-0ED4-36F66B535532}.Debug|x64.Build.0 = Debug|x64
+		{C2BB80D5-E3DB-972D-0ED4-36F66B535532}.Release|x64.ActiveCfg = Release|x64
+		{C2BB80D5-E3DB-972D-0ED4-36F66B535532}.Release|x64.Build.0 = Release|x64
+		{D84CE865-F37D-E254-7F73-10AE0C579519}.Debug|x64.ActiveCfg = Debug|x64
+		{D84CE865-F37D-E254-7F73-10AE0C579519}.Debug|x64.Build.0 = Debug|x64
+		{D84CE865-F37D-E254-7F73-10AE0C579519}.Release|x64.ActiveCfg = Release|x64
+		{D84CE865-F37D-E254-7F73-10AE0C579519}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
